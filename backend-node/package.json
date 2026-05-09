@@ -1,0 +1,12 @@
+{
+  "name": "backend-node",
+  "version": "1.0.0",
+  "description": "Minimal Node.js backend for Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
