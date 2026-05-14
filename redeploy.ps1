@@ -1,5 +1,5 @@
 # Variables (remplace par ton username Docker Hub)
-$imageName = "<ton-username>/mon-image:latest"
+$imageName = "sharpgg/mon-image:latest"
 $deploymentName = "mon-appli"
 
 Write-Host "Construction de l'image Docker..."
