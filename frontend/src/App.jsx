@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState('Chargement...')
 
   useEffect(() => {
-    fetch('http://localhost:3010/')
+    fetch('http://localhost:3002/')
       .then(res => res.text())
       .then(data => setMessage(data))
       .catch(() => setMessage('Erreur : impossible de joindre le backend'))
